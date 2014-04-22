@@ -1,0 +1,35 @@
+Go Board functionality
+
+; No undo!
+; Needs SGF writer for moves!
+
+- Board customizer
+
+Will allow the user to choose board size, player names, handicap, and time settings.
+Should the user choose to do so he or she can exit without opening a new game.
+Allow settings such as: save sgf, server/port list, username and password for server.
+
+- Board display and gameplay
+; WINDOW RESIZE EVENT?!
+
+Display the cordinates of the board.
+white stones with a black circle for whites move
+black stones with a white circle for blacks move
+square for ko
+black lines on wood background
+timers and players names along with colored stones and ranks
+byoyomi stones left
+amount of stones captured
+w vs b in title along with ranks
+resign, pass
+message box -> ncurses instead (fuck sdl)
+
+display undo requests
+
+the board display should be broken down into 4 sections
+- board and cords around the board
+- header displaying who is white and who is black
+- sidebar displaying stones taken, who is what color, time left, amount of moves left for byoyomi
+- resign, pass, and undo buttons.
+
+
